@@ -1,0 +1,1 @@
+!function(t){t(function(){t(".video-list").each(function(i,e){var s=t(e);new Swiper(".video-list__list__wrapper",{slidesPerView:"auto",wrapperClass:"video-list__list",slideClass:"video-list__item",watchOverflow:!0,on:{init:function(){s.addClass("is-ready")}}})})})}(jQuery);
