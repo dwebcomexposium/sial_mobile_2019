@@ -7369,6 +7369,7 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-ite
   -webkit-box-shadow: none;
   box-shadow: none;
   background: #fff;
+  display: none !important;
 }
 
 .is-stuck .main-navigation {
@@ -10216,6 +10217,10 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   .body-mobile .site-banner .inside {
     padding: 0 2.45rem !important;
   }
+}
+
+.site-banner .inside > .sb-menu-trigger {
+  display: none;
 }
 
 .site-banner .custom-trigger-menu-mobile {
