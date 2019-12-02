@@ -275,7 +275,7 @@ img {
 .subheader__btn, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
-body.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, .pl-trigger, .partner .main-title-with-link .link-view-all, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+body.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, .pl-trigger, .partner .main-title-with-link .link-view-all, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block, .cc-cookies .cc-cookie-accept {
   display: inline-block;
   padding: 0.9rem 2.6rem 1rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -298,7 +298,7 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-even
 .subheader__btn:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
-body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover, .cc-cookies .cc-cookie-accept:hover {
   background: #292B2F;
 }
 
@@ -11325,6 +11325,19 @@ body {
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
   color: #383838;
   background-color: #fff;
+}
+
+.cc-cookies {
+  position: fixed !important;
+  left: 0;
+  bottom: 0;
+  top: auto;
+  border-top: 0.1rem solid rgba(200, 204, 215, 0.6);
+}
+
+.cc-cookies .cc-cookie-accept {
+  margin: 0;
+  width: auto;
 }
 
 .custom-menu-mobile-container {
