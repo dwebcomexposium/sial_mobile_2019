@@ -24,15 +24,6 @@
   background: #0c8192;
   color: #FFF;
 }
-.at-illust + .at-content > .at-theme {
-  position: absolute;
-  top: 0;
-  left: 0;
-  float: none;
-  margin: 0;
-  font-weight: bold;
-  font-size: 2rem;
-}
 /* Publication (date, author) */
 .at-publication {
   padding: 0.5em 0;
