@@ -1334,11 +1334,11 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
 .home-events body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316963 .main-title-with-link > h2, .home-events .block.article-title body.node1316963 .main-title-with-link > h2,
 .home-events body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316971 .main-title-with-link > h2, .home-events .block.article-title body.node1316971 .main-title-with-link > h2 {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 4.2rem;
   font-weight: 900;
-  line-height: 6rem;
   color: #585858;
   text-transform: none;
+  font-size: 2.6rem;
+  line-height: 4.5rem;
 }
 
 body.node1316963 .article-content p:nth-of-type(2), body.node1316958 .article-wrapper .article-content h3,
@@ -3714,7 +3714,6 @@ body.node1309141 .contacts-list .cl-item-social.additional-informations {
 
 .key-figures {
   clear: both;
-  max-width: 110rem;
   margin: 3rem auto;
 }
 
@@ -4060,6 +4059,13 @@ body.article_list .more-infos-contact {
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
+  max-width: 61rem;
+}
+
+@media screen and (min-width: 480px) {
+  .sial-network {
+    margin: 0 auto 3rem;
+  }
 }
 
 .sial-network::after {
@@ -5058,7 +5064,6 @@ body.article_list .more-infos-contact {
 .why-visit {
   margin: 3rem auto 0;
   overflow: hidden;
-  max-width: 75rem;
   width: 100%;
 }
 
@@ -5528,6 +5533,22 @@ body.page-rubric #zone4 > .block.article-title::after {
   display: none;
 }
 
+body.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside, body.page-rubric #zone4 .block.block-page.edito.article-title > .inside,
+body.front .block.article-title > .inside,
+body.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside,
+body.page-rubric #zone4 > .block.article-title > .inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
 body.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .cx-lazy-load, body.page-rubric #zone4 .block.block-page.edito.article-title > .inside .cx-lazy-load,
 body.front .block.article-title > .inside .cx-lazy-load,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .cx-lazy-load,
@@ -5548,6 +5569,26 @@ body.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .at-
 body.page-rubric #zone4 > .block.article-title > .inside .at-content {
   width: 100%;
   margin: 0;
+}
+
+body.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .cx-lazy-load, body.page-rubric #zone4 .block.block-page.edito.article-title > .inside .cx-lazy-load,
+body.front .block.article-title > .inside .cx-lazy-load,
+body.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .cx-lazy-load,
+body.page-rubric #zone4 > .block.article-title > .inside .cx-lazy-load {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  display: block;
+  margin: 1.5rem auto 1.5rem 0;
+}
+
+body.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .at-content, body.page-rubric #zone4 .block.block-page.edito.article-title > .inside .at-content,
+body.front .block.article-title > .inside .at-content,
+body.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .at-content,
+body.page-rubric #zone4 > .block.article-title > .inside .at-content {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
 }
 
 .block.article-title body.front .block.article-title {
@@ -5581,9 +5622,13 @@ body.page-rubric #zone4 .block.block-page.edito.edito-custom, body.page-rubric #
 
 .exhibitors-slider {
   position: relative;
-  margin-top: 10rem;
-  margin-bottom: 6rem;
   padding-bottom: 12rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
+
+.exhibitors-slider .catal-ex-header {
+  display: none;
 }
 
 .exhibitors-slider::before {
@@ -5914,6 +5959,16 @@ body.page-rubric #zone4 .block.block-page.edito.edito-custom, body.page-rubric #
 .home-events .grid-la-list {
   margin-left: 0;
   margin-bottom: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  .home-events .grid-la-list .gla-item {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 }
 
 .gla-item {
@@ -6360,6 +6415,16 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line .g
   background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_mobile_git/img/visual/conferences-bg.jpg") center center/cover no-repeat;
   border-radius: 0.6rem;
   overflow: hidden;
+  padding: 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .home-events .edito .block-title {
@@ -6572,6 +6637,7 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line .g
   position: relative;
   z-index: 3;
   max-width: 110rem;
+  max-width: 50rem;
   margin: 0 auto 4rem;
 }
 
@@ -6708,6 +6774,8 @@ body.node1316971 .error-page .at-main-title {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .home-search .ql-list .btn-primary,
@@ -7693,7 +7761,6 @@ body.matchmaking .list-articles .gla-item-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -2.5rem;
   padding: 4rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -7703,6 +7770,14 @@ body.matchmaking .list-articles .gla-item-content {
   background: #FFDB38 url("/theme/sial_2019_mobile_git/img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
+  max-width: 61rem;
+  margin: 0 -2.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .nf-main-content {
+    margin: 0 auto;
+  }
 }
 
 .nf-form-item label {
