@@ -4085,9 +4085,6 @@ body {
 /*
  * ==Rubrique
  */
-.page-rubric .edito {
-  margin: 0.5em -0.65em 0 !important;
-}
 .page-rubric .edito h1,
 .page-rubric .edito h2,
 .page-rubric .edito p {
