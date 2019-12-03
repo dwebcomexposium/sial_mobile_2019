@@ -5939,6 +5939,26 @@ body.page-rubric #zone4 > .block.article-title > .inside .at-content {
   order: 1;
 }
 
+body.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .cx-lazy-load, body.page-rubric #zone4 .block.block-page.edito.article-title > .inside .cx-lazy-load,
+body.front .block.article-title > .inside .cx-lazy-load,
+body.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .cx-lazy-load,
+body.page-rubric #zone4 > .block.article-title > .inside .cx-lazy-load {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+body.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .at-content, body.page-rubric #zone4 .block.block-page.edito.article-title > .inside .at-content,
+body.front .block.article-title > .inside .at-content,
+body.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .at-content,
+body.page-rubric #zone4 > .block.article-title > .inside .at-content {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
 .block.article-title body.front .block.article-title {
   /* homepage */
   max-width: 117.5rem;
