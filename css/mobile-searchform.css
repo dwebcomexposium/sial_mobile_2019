@@ -1,6 +1,6 @@
 /*
 
-  == Mobile
+  == Corporate
   == Search form for Error page, search result page…
   .second-search-form --> .ssf-###
 
@@ -10,7 +10,7 @@
 	== Common
 	== Typeahead
  	== Auto suggest in search form
- 	
+
  */
 .tt-dropdown-menu {
   position: absolute;
@@ -56,15 +56,15 @@
 	== Corporate
 	== Typeahead
  	== Auto suggest in search form
- 	
+
  */
 .tt-dropdown-menu {
-  width: 100%;
+  width: 330px;
   padding: 0.5em;
   margin-left: 0;
   margin-top: .5rem;
-  box-shadow: none;
   border: 1px solid #e3e9ea;
+  color: #2b2f2f;
 }
 .tt-dropdown-menu::before {
   content: "";
@@ -120,7 +120,7 @@
 .typeahead-section-name {
   display: block;
   border-bottom: 1px solid #e3e9ea;
-  color: #0c8192;
+  color: #00525e;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -128,18 +128,36 @@
   color: #0c8192;
   font-weight: bold;
 }
-.global-search-form {
+.site-banner .global-search-form .tt-dropdown-contents {
+  max-height: 1000px;
+  overflow-y: auto;
+}
+@media (max-height: 1100px) {
+  .site-banner .global-search-form .tt-dropdown-contents {
+    max-height: 800px;
+  }
+}
+@media (max-height: 950px) {
+  .site-banner .global-search-form .tt-dropdown-contents {
+    max-height: 600px;
+  }
+}
+@media (max-height: 768px) {
+  .site-banner .global-search-form .tt-dropdown-contents {
+    max-height: 500px;
+  }
+}
+.second-search-form {
   display: block;
   padding-left: 0;
 }
-.global-search-form form {
+.second-search-form form {
   display: block;
 }
-.global-search-form .tt-dropdown-menu {
+.second-search-form .tt-dropdown-menu {
+  width: 100%;
   left: 0 !important;
   right: 0 !important;
-  width: 95vw;
-  margin-left: 0;
 }
 .gsf-trigger {
   display: none;
@@ -147,8 +165,8 @@
 .gsf-input-line {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   width: 100%;
 }
 .gsf-fields {
@@ -192,4 +210,4 @@
   background: #00525e;
 }
 
-/*# sourceMappingURL=maps/mobile-searchform.css.map */
+/*# sourceMappingURL=maps/corporate-searchform.css.map */

@@ -1,6 +1,6 @@
 /*
 	
-	== Mobile
+	== Corporate
 	== Contact
 	.contacts-list --> .cl-##
 
@@ -10,18 +10,20 @@
   margin-top: 3em;
 }
 .cl-item {
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
   border-bottom: 1px solid #e3e9ea;
 }
+.cl-item > * {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 2em;
+}
 .cl-item-illust {
-  float: left;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  width: 20%;
-  min-width: 60px;
-  max-width: 200px;
-  text-align: center;
+  width: 200px;
 }
 .cl-item-content {
   color: #474d4e;
@@ -31,18 +33,13 @@
 }
 .cl-item-title {
   margin-bottom: 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 .cl-item-subtitle {
+  margin-top: .25em;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: bold;
-}
-.cl-item-content .cl-item-subtitle {
-  margin-top: 0;
-}
-.cl-item-address {
-  overflow: hidden;
 }
 .cl-item-address [class^="flag-icon"] {
   margin-top: .3em;
@@ -115,4 +112,4 @@
   margin-left: 85px;
 }
 
-/*# sourceMappingURL=maps/mobile-contacts.css.map */
+/*# sourceMappingURL=maps/corporate-contacts.css.map */

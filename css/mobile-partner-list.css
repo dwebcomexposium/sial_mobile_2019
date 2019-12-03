@@ -1,34 +1,29 @@
 /*
 	
-	== Mobile
+	== Corporate
 	== List of partners
 	.partner-list --> .pl-##
 
 */
-.grid-pl-group.pl-item-group {
-  display: block;
-}
-.pl-main-content {
-  margin: 1em 0;
-}
-.pl-subtitle {
-  margin-bottom: 0;
-}
 .pl-item-illust {
-  float: left;
-  min-width: 85px;
-  max-width: 240px;
-  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
   margin-right: 1em;
   padding-top: 0.5em;
+  text-align: center;
 }
 .pl-item {
   padding: 1em 0;
   border-bottom: 1px solid #e3e9ea;
 }
+.pl-item-content {
+  display: inline-block;
+  width: 64%;
+}
 .pl-item-title {
   margin-bottom: 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 .pl-trigger-wrap {
   position: relative;
@@ -47,26 +42,20 @@
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 80%);
 }
 .pl-trigger {
-  display: block;
-  width: 100%;
   padding-left: 0.5em;
   padding-right: 0.5em;
   text-transform: none;
-  text-align: left;
   font-weight: bold;
-  font-size: 1.8rem;
-  color: #00525e;
+  background: #f6f9f9;
+  color: #566e02;
 }
 .pl-trigger .icon {
-  width: 25px;
-  margin-right: 0;
-  line-height: 1;
-  font-size: 1.8rem;
   color: #909b9d;
+  line-height: 1;
 }
 .pl-trigger:focus,
 .pl-trigger:hover {
-  color: #474d4e;
+  color: #7ea203;
 }
 .js .js-pl {
   display: none;
@@ -78,4 +67,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=maps/mobile-partner-list.css.map */
+/*# sourceMappingURL=maps/corporate-partner-list.css.map */

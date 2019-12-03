@@ -1,15 +1,12 @@
 /*
 
-	== Mobile
+	== Corporate
 	== Lang Switcher common styles
 
 */
 .lang-switcher {
-  position: relative;
-  float: right;
   font-size: 1.2rem;
   background: #FFF;
-  margin-top: 1.66em;
 }
 .lang-switcher abbr {
   border-bottom: 0;
@@ -17,7 +14,7 @@
 .ls-trigger {
   position: relative;
   z-index: 5;
-  padding: .75em 1.3em;
+  padding: 0.5em 1em;
   font-size: 1.2rem;
   font-family: Gudea, Helvetica, Arial, sans-serif;
   color: #474d4e;
@@ -34,15 +31,14 @@
   top: 100%;
   left: 0;
   right: 0;
-  background: #FFFFFF;
+  background: #f4f4f4;
 }
 .ls-lang-link {
-  color: #00525e !important;
   padding: 0.5em 1em;
 }
 .ls-lang-link:hover,
 .ls-lang-link:focus {
-  background: #f4f4f4;
+  background: #fff;
 }
 
-/*# sourceMappingURL=maps/mobile-langswitcher.css.map */
+/*# sourceMappingURL=maps/corporate-langswitcher.css.map */

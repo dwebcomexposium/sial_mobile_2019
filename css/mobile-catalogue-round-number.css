@@ -1,12 +1,12 @@
 /*
 	
-		== Mobile / Catalogue
+		== Corporate / Catalogue
 		== Round number (e.g. number on a disc of a set size)
 		.qty-round
 
 */
 .mod-catal {
-  /* 
+  /*
  * ==Round number
  * 3 different sizes: 30x30 (next to a heading), 21x21 (affix menu) or 15x15 (sidebar)
  */
@@ -39,4 +39,4 @@
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=maps/mobile-catalogue-round-number.css.map */
+/*# sourceMappingURL=maps/corporate-catalogue-round-number.css.map */

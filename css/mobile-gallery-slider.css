@@ -1,16 +1,14 @@
 /*
 
-	== Mobile
+	== Corporate
 	== Slider "gallery"
-	.gallery-slider (in a Modal)
+	.gallery-slider
 
 */
 .gallery-js-slider,
 .gallery-slider {
-  position: relative;
-  overflow: visible;
-  background-color: #2b2f2f;
-  height: 100%;
+  overflow: hidden;
+  height: 592px;
   /* Pagination */
   /* Buttons */
 }
@@ -20,41 +18,41 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   box-shadow: none;
-}
-.gallery-js-slider .gal-item-illust,
-.gallery-slider .gal-item-illust {
-  max-height: 40%;
-  text-align: center;
+  background-color: #2b2f2f;
 }
 .gallery-js-slider .gal-item-img,
 .gallery-slider .gal-item-img {
-  width: 100% !important;
-  height: auto !important;
+  margin-top: 5px;
 }
 .gallery-js-slider .gal-item-content,
 .gallery-slider .gal-item-content {
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0.5em 1em 3.5em;
+  display: block;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-bottom: 4em;
   background-color: #2b2f2f;
-}
-.gallery-js-slider .landscape-mode .gal-item-content,
-.gallery-slider .landscape-mode .gal-item-content {
-  bottom: auto;
-}
-.gallery-js-slider .portrait-mode .gal-item-content,
-.gallery-slider .portrait-mode .gal-item-content {
-  bottom: 0;
 }
 .gallery-js-slider a,
 .gallery-slider a {
@@ -65,7 +63,7 @@
 .gallery-slider .gal-item-title {
   font-family: Gudea, Helvetica, Arial, sans-serif;
   color: #ffffff;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: bold;
   margin: 0;
 }
@@ -79,7 +77,7 @@
 }
 .gallery-js-slider .gal-item-desc,
 .gallery-slider .gal-item-desc {
-  color: #FFF;
+  color: #fff;
   font-size: 1.4rem;
   margin: 0.5em 0;
 }
@@ -91,26 +89,15 @@
   font-style: italic;
   font-size: 1.4rem;
   background: none;
-  color: #FFF;
+  color: #fff;
 }
 .gallery-js-slider .slider-pagin,
 .gallery-slider .slider-pagin {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   z-index: 10;
-  padding: 0 1em;
+  padding: 0;
 }
-.gallery-js-slider .slider-pagin::after,
-.gallery-slider .slider-pagin::after {
-  content: "";
-  display: table;
-  clear: both;
-  border-collapse: collapse;
-}
-.gallery-js-slider [class*="slider-btn-"],
-.gallery-slider [class*="slider-btn-"] {
+.gallery-js-slider [class*='slider-btn-'],
+.gallery-slider [class*='slider-btn-'] {
   float: right;
   margin-left: 3px;
 }
@@ -122,42 +109,24 @@
 }
 .gallery-js-slider .slider-pagin-btn,
 .gallery-slider .slider-pagin-btn {
-  padding: .5em 0 .5em 3em;
-  border-top: 1px solid #474d4e;
-}
-.gallery-js-slider .slider-pagin-btn::after,
-.gallery-slider .slider-pagin-btn::after {
-  content: "";
-  display: table;
-  clear: both;
-  border-collapse: collapse;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  padding: 10px 0 0;
+  border-top: 1px solid #fff;
 }
 .gallery-js-slider .gal-pagin-nb,
 .gallery-slider .gal-pagin-nb {
   z-index: 15;
-  padding-top: .35em;
-  padding-right: 50px;
   display: block;
   font-size: 1.4rem;
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
 .gallery-js-slider .slider-pagin-nb,
 .gallery-slider .slider-pagin-nb {
   display: none;
 }
-@media only screen and (orientation: landscape) {
-  .gallery-js-slider .gal-item-illust,
-  .gallery-slider .gal-item-illust {
-    max-height: 400px;
-    overflow: hidden;
-  }
-  .gallery-js-slider .landscape-mode .gal-item-content,
-  .gallery-slider .landscape-mode .gal-item-content,
-  .gallery-js-slider .portrait-mode .gal-item-content,
-  .gallery-slider .portrait-mode .gal-item-content {
-    bottom: 0;
-  }
-}
 
-/*# sourceMappingURL=maps/mobile-gallery-slider.css.map */
+/*# sourceMappingURL=maps/corporate-gallery-slider.css.map */

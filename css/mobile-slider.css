@@ -1,6 +1,6 @@
 /*
 
-	== Mobile
+	== Corporate
 	== Slider: common styles for all sliders
 
 */
@@ -10,8 +10,8 @@
 }
 .slider-item {
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 /* button for slider pagination */
 .slider [class*="slider-btn"] {
@@ -77,16 +77,20 @@
   border: 1px solid #c6d2d4;
   cursor: pointer;
 }
-.slider-pagin-item:focus,
-.slider-pagin-item:hover {
-  background: #e6e6e6;
-}
 .slider-pagin-item.is-active {
   background: #910f4f;
   border-color: #630a36;
+}
+.slider-pagin-item.is-active:focus,
+.slider-pagin-item.is-active:hover {
+  background: #910f4f;
+}
+.slider-pagin-item:focus,
+.slider-pagin-item:hover {
+  background: #e6e6e6;
 }
 .slider-pagin-item + .slider-pagin-item {
   margin-left: .25em;
 }
 
-/*# sourceMappingURL=maps/mobile-slider.css.map */
+/*# sourceMappingURL=maps/corporate-slider.css.map */
