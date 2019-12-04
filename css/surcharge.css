@@ -1594,6 +1594,7 @@ body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-c
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  max-width: 32rem;
 }
 
 @media screen and (min-width: 480px) {
@@ -10051,6 +10052,13 @@ body.node1318534 .quicklinks-cta--large ul {
   position: absolute;
 }
 
+.list-articles.block.block-page.prix-inno .custom_generic_progressBar {
+  z-index: 2;
+  position: relative;
+  bottom: auto;
+  margin-top: 3rem;
+}
+
 .list-articles.block.block-page.prix-inno .prix-inno__arrows-container,
 .list-articles.block.block-page.prix-inno > .inside {
   position: relative;
@@ -10349,6 +10357,13 @@ html[lang='en'] .list-articles.block.block-page.prix-inno .grid-la-list .gla-ite
 .list-articles.block.block-page.prix-secteurs > * {
   position: relative;
   z-index: 2;
+}
+
+.list-articles.block.block-page.prix-secteurs .custom_generic_progressBar {
+  z-index: 2;
+  position: relative;
+  bottom: auto;
+  margin-top: 3rem;
 }
 
 .list-articles.block.block-page.prix-secteurs .prix-secteurs-slider {
@@ -10829,14 +10844,19 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 
 .sr-term {
   color: #F85C29;
+  background: #ff0;
+  font-weight: bold;
 }
 
 .sr-nb-result {
   color: #383838;
 }
 
+.sr-nb-result:before {
+  content: none;
+}
+
 .sr-form {
-  width: 68%;
   margin-bottom: 4rem;
 }
 
@@ -10924,7 +10944,6 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 
 .sr-group > .sr-item {
   position: relative;
-  min-height: 26.3rem;
   margin: 0;
   padding: 4rem 0;
   border-top: 0.1rem solid #c8ccd7;
@@ -10947,18 +10966,18 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 }
 
 .sr-item-img {
-  float: left;
+  float: none;
+  margin: 0 auto 3rem;
+  display: block !important;
   position: relative;
   width: 18.3rem;
   height: 18.3rem;
   padding: 0;
-  margin-right: 3rem;
   text-align: center;
   overflow: hidden;
 }
 
 .sr-group-exponent .sr-item-img {
-  float: left;
   width: 18.3rem;
   padding: 0;
 }
@@ -10971,6 +10990,9 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   max-width: none;
   min-width: 100%;
   min-height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -10980,8 +11002,13 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
-  margin-bottom: 1.6rem;
   color: currentColor;
+  margin-bottom: 0;
+  line-height: normal;
+}
+
+.sr-item-title + .sr-item-txt {
+  margin-top: 1.6rem;
 }
 
 .sr-item-content {
@@ -10989,6 +11016,10 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   font-weight: 300;
   line-height: 2.5rem;
   color: currentColor;
+  text-align: center;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sr-group-exponent .sr-item-content {
@@ -10996,7 +11027,7 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   padding: 0;
 }
 
-.social-sharing .sr-item-txt {
+.sr-item-txt .social-sharing {
   display: none;
 }
 
@@ -11049,6 +11080,10 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .list-articles.block.block-page.sial-inno .grid-la-list .gla-item, .list-articles.block.block-page.sial-inno .grid-la-list body.node126547 .mod-catal.catal-other-ex .catal-other-ex-link, body.node126547 .mod-catal.catal-other-ex .list-articles.block.block-page.sial-inno .grid-la-list .catal-other-ex-link {
@@ -12042,6 +12077,13 @@ body.node1316899 .quicklinks-cta--large {
 .list-articles.block.block-page.world-champions-tour > * {
   position: relative;
   z-index: 2;
+}
+
+.list-articles.block.block-page.world-champions-tour .custom_generic_progressBar {
+  z-index: 2;
+  position: relative;
+  bottom: auto;
+  margin-top: 3rem;
 }
 
 .list-articles.block.block-page.world-champions-tour .world-champions-tour-slider {
