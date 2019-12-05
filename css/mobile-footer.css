@@ -1,19 +1,26 @@
 /*
 
-	== Mobile
+	== Corporate
 	== Footer
 
 */
 .site-footer {
-  color: #ffffff;
+  position: relative;
+  z-index: 1;
   background: #003239;
+  color: #ffffff;
 }
 .site-footer .inside {
   position: relative;
   z-index: 5;
-  width: 100%;
-  padding: 3.5rem 1rem 4rem;
+  display: table;
   table-layout: fixed;
+  width: 100%;
+  padding: 6.25em 0 2.5em;
+}
+.site-footer .inside > * {
+  display: table-cell;
+  vertical-align: top;
 }
 .site-footer a {
   color: #ffffff;
@@ -22,32 +29,11 @@
 .site-footer a:hover {
   text-decoration: none;
 }
-.sf-resume,
-.sf-menu,
 .sf-branding {
-  display: block;
+  width: 33%;
 }
-.sf-resume,
-.sf-branding {
-  text-align: center;
-}
-.sf-branding {
-  width: 190px;
-  margin: 3.5rem auto 0;
-}
-.js .sf-ttt {
-  display: none;
-}
-.no-js .sf-ttt,
-.js .is-stuck.sf-ttt {
-  position: fixed;
-  z-index: 20;
-  right: 1em;
-  bottom: 1em;
-  display: block;
-  padding: 1em;
-  text-decoration: none;
-  background: #566e02;
+.sf-resume {
+  padding-top: 1em;
 }
 
-
+/*# sourceMappingURL=maps/corporate-footer.css.map */

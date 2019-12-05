@@ -1,12 +1,12 @@
 /*
 
-	== Mobile
+	== Corporate
 	== Newsletter
 	.newsletter-form --> .nf-##
 
 */
 .nf-main-content {
-  padding: 1em 1em 1.5em;
+  padding: 1em 1.5em 1.5em;
   margin: 1em 0;
   background: #00525e;
   color: #FFF;
@@ -19,21 +19,19 @@
   color: #474d4e;
 }
 .nf-subtitle {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 .nf-required {
   font-size: 1.4rem;
   font-style: italic;
 }
+.nf-form-input {
+  width: 300px;
+  float: left;
+}
 .nf-form-txt {
+  width: 100%;
   border-radius: 2px 0 0 2px;
-}
-.nf-form-item label {
-  font-size: 1.6rem;
-}
-.nf-form-submit {
-  margin-top: 1em;
-  text-align: center;
 }
 /*
  * Loading
@@ -61,9 +59,8 @@
  * Success/Error
  */
 .nf-success-msg {
-  margin: 2em 0 0.5em;
-  font-size: 1.6rem;
-  text-align: center;
+  margin: 2em 0;
+  font-size: 1.8rem;
 }
 .nf-success-msg p {
   display: inline-block;
@@ -77,7 +74,7 @@
   width: 82px;
   height: 82px;
   padding-top: .25em;
-  margin-bottom: 0.5em;
+  margin: 0 1em 0 2em;
   text-align: center;
   font-size: 3.8rem;
   border: 4px solid;
@@ -111,5 +108,56 @@
 .nf-form-submit [class^="btn"]:hover {
   border-color: #1b1b1d;
 }
+/*
+ * Small Block
+ */
+.block-small .nf-main-content {
+  padding: .75em;
+}
+.block-small .nf-title {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #e3e9ea;
+}
+.block-small .nf-subtitle {
+  font-size: 1.4rem;
+}
+.block-small .nf-form-input {
+  width: auto;
+  float: none;
+}
+.block-small .nf-form-txt {
+  border-radius: 2px;
+}
+.block-small .nf-loading {
+  top: 3em;
+  right: .75em;
+  left: .75em;
+  bottom: .75em;
+  padding-top: 3em;
+}
+.block-small .nf-loading-txt {
+  padding: 0 1em;
+  font-size: 1.6rem;
+}
+.block-small .nf-form-submit {
+  text-align: center;
+}
+.block-small .nf-success-msg {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 1em 0;
+}
+.block-small .nf-success-msg .icon {
+  margin: 0 0 .5em;
+  width: 60px;
+  height: 60px;
+  font-size: 2.7rem;
+}
+.newsletter-form.block-small label {
+  font-size: 1.6rem;
+}
+.newsletter-form.block-small [class^="btn-"] {
+  margin: 1em 0 0.5em;
+}
 
-/*# sourceMappingURL=maps/mobile-newsletter.css.map */
+/*# sourceMappingURL=maps/corporate-newsletter.css.map */

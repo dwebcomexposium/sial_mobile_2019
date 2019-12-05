@@ -1,6 +1,6 @@
 /*
 	
-	== Mobile 
+	== Corporate
 	== Breadcrumb
 	.breadcrumb-nav --> .bn-##
 
@@ -16,7 +16,6 @@
   display: inline-block;
 }
 .bn-item .icon {
-  display: inline-block;
   margin: 0 0.5em;
   font-size: 1.2rem;
   color: #7ea203;
@@ -32,4 +31,4 @@
   text-decoration: none;
 }
 
-/*# sourceMappingURL=maps/mobile-breadcrumb.css.map */
+/*# sourceMappingURL=maps/corporate-breadcrumb.css.map */

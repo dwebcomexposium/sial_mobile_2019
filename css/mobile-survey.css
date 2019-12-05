@@ -1,33 +1,32 @@
 /*
 
-	== Mobile
+	== Corporate
 	== Survey
 	.survey-vote --> .sv-##
 
 */
 .sv-main-content {
   position: relative;
-  padding: 0.5em;
+  padding: 1em;
   margin: 1em 0;
   border: 3px solid #e3e9ea;
 }
 .sv-title {
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  font-size: 1.6rem;
+  padding-right: 3em;
+  font-size: 2.4rem;
   font-weight: bold;
   color: #474d4e;
   border-bottom: 1px solid #e3e9ea;
 }
-.with-results .sv-title {
-  border-bottom: 0;
-}
 .sv-title-total {
-  display: block;
-  padding-bottom: .5em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  padding-top: .5em;
   font-size: 1.6rem;
   font-weight: normal;
-  border-bottom: 1px solid #e3e9ea;
 }
 .sv-item {
   padding: 0.75em 0.5em;
@@ -37,7 +36,7 @@
   display: inline-block;
   margin-top: 0;
   margin-left: 0;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 .sv-item .radio-title::after {
   margin-top: .25em;
@@ -53,9 +52,9 @@
   margin-top: 1.5em;
 }
 .sv-item-button [class^="btn"] {
-  padding-top: .65em;
-  font-size: 1.4rem;
-  font-weight: normal;
+  font-size: 2rem;
+  padding-top: .35em;
+  padding-bottom: .35em;
 }
 .sv-item-button [class^="btn"] .icon {
   display: none;
@@ -63,6 +62,54 @@
 .sv-item-input {
   display: block;
   margin-left: 2em;
+  width: 38%;
+}
+/*
+ * Block
+ */
+.block-small .survey-vote .form-item-radio .radio-title:after {
+  top: -4px;
+}
+.block-small .sv-item-button [class^="btn"] {
+  font-size: 1.6rem;
+}
+.block-small .sv-main-content {
+  padding: 0.5em;
+}
+.block-small .sv-title {
+  display: block;
+  font-size: 1.6rem;
+  padding-right: 0;
+}
+.block-small .sv-title .sv-title-total {
+  float: none;
+  font-size: 1.4rem;
+}
+.block-small .sv-item,
+.block-small .sv-item label {
+  font-size: 1.4rem;
+}
+.block-small .sv-item-button {
+  margin-top: .5em;
+}
+.block-small .sv-item-input {
+  width: auto;
+}
+.block-small .sv-result-color {
+  min-width: 5%;
+  max-width: 80%;
+}
+.block-small .with-results .sv-title {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.block-small .with-results .sv-title-total {
+  position: static;
+  display: block;
+  padding-top: 0;
+  padding-bottom: .25em;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #e3e9ea;
 }
 /*
  * Loading
@@ -90,7 +137,6 @@
  * Results
  */
 .sv-list-result .sv-item {
-  padding: 0.5em 0;
   border-bottom: 0;
 }
 .sv-list-result .sv-item.is-highlited {
@@ -104,14 +150,13 @@
   vertical-align: middle;
   min-height: 26px;
   min-width: 3%;
-  max-width: 88%;
+  max-width: 90%;
   background: #afc0c3;
   -webkit-transition: width .8s;
   transition: width .8s;
 }
 .sv-result-txt {
   margin-left: 0.5em;
-  font-size: 1.2rem;
 }
 .is-highlited .sv-result-color {
   background: #a3c434;
@@ -123,4 +168,4 @@
   width: 0% !important;
 }
 
-/*# sourceMappingURL=maps/mobile-survey.css.map */
+/*# sourceMappingURL=maps/corporate-survey.css.map */

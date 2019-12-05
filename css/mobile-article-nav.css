@@ -1,12 +1,22 @@
 /*
 	
-	== Mobile
+	== Corporate
 	== Article navigation
 	.article-navigation --> .an-##
 
 */
+.an-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 .an-item {
-  margin-bottom: 1em;
+  width: 48%;
 }
 .an-item-next {
   text-align: right;
@@ -43,12 +53,8 @@
   display: inline-block;
   vertical-align: middle;
 }
-.an-item-illust {
-  max-width: 115px;
-  width: 38%;
-}
 .an-item-content {
-  width: 60%;
+  width: 61%;
   padding: .2em;
   line-height: 1;
 }
@@ -64,4 +70,4 @@
   font-style: italic;
 }
 
-/*# sourceMappingURL=maps/mobile-article-nav.css.map */
+/*# sourceMappingURL=maps/corporate-article-nav.css.map */

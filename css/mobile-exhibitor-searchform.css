@@ -1,4 +1,4 @@
-/*
+  /*
  * @BUGFIX iOS 7 and 8 (at least) / Forbids scrolling of page under this modal (seen too much on iPhone 5 / iOS 8.3).
  * Drawback: after closing the modal, header is displayed in top of viewport even if we scrolled down the page before opening modal.
  * That's OK with extended searchform modal (which is above the fold or quite) but wouldn't with a contact modal that can be opened
@@ -412,41 +412,6 @@ html.is-modal-opened > body {
 }
 .mod-catal .esf-as-header {
   display: block;
-}
-.mod-catal .esf-as-header .esf-as-title {
-  width: 100%;
-  max-width: 22em;
-  height: 3.9rem;
-  padding: 0 1rem 0 5rem;
-  text-align: left;
-  font-size: 1.6rem;
-  font-weight: bold;
-  background: #474d4e;
-  color: #ffffff;
-}
-.mod-catal .esf-as-header .esf-as-title:after,
-.mod-catal .esf-as-header .esf-as-title:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 1.5rem;
-  margin-top: -2px;
-  background: #ffffff;
-  border-radius: 2px;
-  width: 21px;
-  height: 5px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.mod-catal .esf-as-header .esf-as-title:focus {
-  background: #474d4e;
-}
-.mod-catal .esf-as-header .esf-as-title:focus:hover {
-  background: #910f4f;
-}
-.mod-catal .esf-as-header .esf-as-title:after {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
 }
 .mod-catal .esf-as-header.is-closed + .esf-as-filters {
   border-top: 0;

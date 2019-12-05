@@ -1,9 +1,9 @@
 /*
 
-	== Events
+	== Corporate
 	== Add Calendar
 	.js-add-to-calendar --> .ac-##
-	
+
 */
 /*
 
@@ -57,13 +57,12 @@ input[type=checkbox].ac-switcher {
 .icon-catal-google:before {
   background-position: -52px 0;
 }
-/* Positioning */
+/* Positionning */
 .ac-add-to-calendar {
   position: absolute;
+  top: 13px;
+  right: 208px;
   z-index: 5;
-  top: 4em;
-  left: 0.5em;
-  right: 0.5em;
 }
 .ac-switcher-label {
   margin: 0;
@@ -74,14 +73,6 @@ input[type=checkbox].ac-switcher {
 .ac-switcher-label:hover .icon,
 .ac-switcher-label:focus .icon {
   color: #FFF;
-}
-.ac-switcher:checked ~ .ac-list {
-  position: static;
-  width: 100%;
-  max-width: 400px;
-}
-.ac-switcher:checked ~ .ac-list .ac-item a {
-  padding-left: 0.5em;
 }
 .ac-list {
   background-color: #0c8192;
@@ -100,4 +91,4 @@ input[type=checkbox].ac-switcher {
   vertical-align: -2px;
 }
 
-/*# sourceMappingURL=maps/mobile-add-calendar.css.map */
+/*# sourceMappingURL=maps/corporate-add-calendar.css.map */
