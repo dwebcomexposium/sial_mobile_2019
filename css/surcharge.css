@@ -8767,23 +8767,23 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   height: 120%;
 }
 
-.home-sectors + div {
-  width: 25rem;
-  height: 25rem;
-  margin-top: 4.9rem;
-}
-
-.home-sectors + div + .home-search {
+.home-sectors + .home-search {
   clear: initial;
 }
 
-.home-sectors + div + .home-search::after {
+.home-sectors + .home-search::after {
   clear: both;
   content: "";
   display: block;
 }
 
-.home-sectors + div + .home-search + .home-events {
+.home-sectors + .home-search + div {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 4.9rem;
+}
+
+.home-sectors + .home-search + div + .home-events {
   clear: both;
 }
 
