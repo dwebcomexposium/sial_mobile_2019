@@ -18012,7 +18012,13 @@ body {
 
 .custom-menu-mobile-container .custom-menu-mobile-inner-1 .mn-menu-item.mn-item-has-submenu > .mn-link {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-right: 5rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .custom-menu-mobile-container .custom-menu-mobile-inner-1 .mn-menu-item.mn-item-has-submenu > .mn-link::before {
