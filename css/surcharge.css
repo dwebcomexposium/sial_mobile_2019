@@ -1620,7 +1620,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a, body.exposant.fiche .mod-catal .catal-ed-main-url-link,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
 .error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
   position: relative;
   display: inline-block;
   padding: 0.2rem 0;
@@ -1647,7 +1647,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
 .error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1669,14 +1669,14 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-acti
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, body.exposant.fiche .mod-catal .is-active.catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
 .error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a.is-active::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.page-events .evsf-as-header .evsf-as-title:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
 .error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
   width: 100%;
 }
 
@@ -2037,7 +2037,7 @@ body.node1316963 .article-content p:nth-of-type(2), table.custom-table td,
 table.table1 td, body.node1316958 .article-wrapper .article-content h3,
 body.node1316958 .article-wrapper .article-content h4, body.page-events.page-details .catal-ed-main-title,
 body.page-events.page-details .catal-ed-main-desc-title, body.page-events.page-details .event-details h4,
-body.page-events.page-details .event-details .evd-title, .error-page .intro h2, .sr-main-title, body.node1316899 .article-intro h2, body.node1316899 .article-content h2, body.node1316899 .article-content table tr td {
+body.page-events.page-details .event-details .evd-title, .error-page .intro h2, .sr-main-title, body.node1316899 .article-intro h2, body.node1316899 .article-content h2 {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
@@ -15750,6 +15750,10 @@ body.node1318534 .selection-stages .detail-secteur__additionnal {
   transform: translateX(50%);
 }
 
+.exhibitors-slider .list-articles.block.block-page.prix-inno::before {
+  content: none;
+}
+
 .list-articles.block.block-page.prix-inno .custom_generic_progressBar {
   position: relative;
   z-index: 2;
@@ -15949,6 +15953,29 @@ body.exhibitor-details .mod-catal.catal-other-ex .list-articles.block.block-page
   height: 18.4rem;
 }
 
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .at-illust, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .at-illust, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .at-illust, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .at-illust, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .at-illust,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .block.edito-custom .gla-item-img, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .gla-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .block.edito-custom .gla-item-img, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-img, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.edito-custom .gla-item-img, .block.edito-custom body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .gla-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .block.edito-custom .gla-item-img, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-img, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.edito-custom .gla-item-img, .block.edito-custom body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .gla-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .block.article-title .gla-item-img, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .gla-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .block.article-title .gla-item-img, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-img, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.article-title .gla-item-img, .block.article-title body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .gla-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .block.article-title .gla-item-img, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-img, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.article-title .gla-item-img, .block.article-title body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .gla-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .block.edito-custom .la-item-img, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .la-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .block.edito-custom .la-item-img, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .la-item-img, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.edito-custom .la-item-img, .block.edito-custom body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .la-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .block.edito-custom .la-item-img, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .la-item-img, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.edito-custom .la-item-img, .block.edito-custom body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .la-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .block.article-title .la-item-img, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .la-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .block.article-title .la-item-img, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .la-item-img, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.article-title .la-item-img, .block.article-title body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .la-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .block.article-title .la-item-img, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .la-item-img, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.article-title .la-item-img, .block.article-title body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .la-item-img,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .block.edito-custom .cx-lazy-load, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .cx-lazy-load,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .block.edito-custom .cx-lazy-load, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .cx-lazy-load, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.edito-custom .cx-lazy-load, .block.edito-custom body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .cx-lazy-load,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .block.edito-custom .cx-lazy-load, .block.edito-custom .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .cx-lazy-load, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.edito-custom .cx-lazy-load, .block.edito-custom body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .cx-lazy-load,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .block.article-title .cx-lazy-load, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .cx-lazy-load,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .block.article-title .cx-lazy-load, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .cx-lazy-load, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.article-title .cx-lazy-load, .block.article-title body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .cx-lazy-load,
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .block.article-title .cx-lazy-load, .block.article-title .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .cx-lazy-load, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .block.article-title .cx-lazy-load, .block.article-title body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .cx-lazy-load, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .gla-item-img, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-img, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .gla-item-img, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-img, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .gla-item-img, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .la-item-img, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .la-item-img, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .la-item-img, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .la-item-img, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .la-item-img, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item .cx-lazy-load, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .cx-lazy-load, body.exposant.fiche .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .cx-lazy-load, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .cx-lazy-load, body.exhibitor-details .mod-catal.catal-other-ex .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .catal-other-ex-link .cx-lazy-load {
+  height: 13.1rem;
+  min-height: 13.1rem;
+}
+
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content {
   height: calc(100% - 18.4rem);
   min-height: 0;
@@ -15959,6 +15986,10 @@ body.exhibitor-details .mod-catal.catal-other-ex .list-articles.block.block-page
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content {
+  height: calc(100% - 13.1rem);
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content > * {
@@ -16036,6 +16067,16 @@ body.exhibitor-details .mod-catal.catal-other-ex .list-articles.block.block-page
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc strong:not(:first-of-type)::before {
   content: '\A';
   white-space: pre;
+}
+
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a {
+  display: block;
+  text-transform: capitalize;
+  color: #2b2f2f;
+}
+
+.exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a:first-of-type {
+  margin-top: 1rem;
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-btn {
@@ -16482,63 +16523,6 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "💬";
-  display: inline-block;
-  margin-right: 1rem;
-  font-size: 2.7rem;
-  color: #F85C29;
-}
-
-.block.quicklink-cta .ql-item.linkid801627 .btn-primary::before,
-.block.quicklinks-cta .ql-item.linkid801627 .btn-primary::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "🎫";
-  display: inline-block;
-  margin-right: 1rem;
-  font-size: 2.7rem;
-  color: #F85C29;
-}
-
-.block.quicklink-cta .ql-item.linkid801628 .btn-primary::before,
-.block.quicklinks-cta .ql-item.linkid801628 .btn-primary::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "📍";
-  display: inline-block;
-  margin-right: 1rem;
-  font-size: 2.7rem;
-  color: #F85C29;
-}
-
-.block.quicklink-cta .ql-item.linkid801629 .btn-primary::before,
-.block.quicklinks-cta .ql-item.linkid801629 .btn-primary::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "📳";
   display: inline-block;
   margin-right: 1rem;
   font-size: 2.7rem;
@@ -17683,131 +17667,30 @@ body.node1316899 .article-content ul li::before {
   content: none;
 }
 
-body.node1316899 .article-content table {
-  position: relative;
-  margin-bottom: 4rem;
-  width: 100%;
-  display: block !important;
-  border-top: 0.1rem solid rgba(140, 144, 158, 0.27);
-  border-right: 0.1rem solid rgba(140, 144, 158, 0.27);
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-}
-
 body.node1316899 .article-content table tbody {
   display: block;
   width: 100%;
 }
 
-body.node1316899 .article-content table tr {
-  background: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
+body.node1316899 .article-content table tr td p {
   position: relative;
-}
-
-body.node1316899 .article-content table tr:not(:first-child) td:after {
-  position: absolute;
-  font-size: 1.1rem;
-  top: 0;
-  left: 0.5rem;
   z-index: 2;
-  color: #585858;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-weight: 900;
-}
-
-body.node1316899 .article-content table tr:nth-child(2) td::after {
-  content: 'Individuel';
-}
-
-body.node1316899 .article-content table tr:nth-child(3) td::after {
-  content: 'Trio';
-}
-
-body.node1316899 .article-content table tr:nth-child(4) td::after {
-  content: 'Groupe (1)';
-}
-
-body.node1316899 .article-content table tr:nth-child(5) td::after {
-  content: 'Ecole (2)';
-}
-
-body.node1316899 .article-content table tr td {
-  border: 0;
-  line-height: 2;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  position: relative;
-  display: block;
-  vertical-align: middle;
-  border-left: 0.1rem solid rgba(140, 144, 158, 0.27);
-  border-bottom: 0.1rem solid rgba(140, 144, 158, 0.27);
-}
-
-body.node1316899 .article-content table tr td:not(:first-child) p {
-  line-height: 2;
-  font-size: 1.6rem;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-weight: 900;
-  background-color: #FFF;
-  padding: 1.5rem;
-  height: 6.9rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 body.node1316899 .article-content table tr td:first-child {
-  display: none;
-  color: #585858;
-  font-size: 1.2rem;
-  letter-spacing: 0.104rem;
-  line-height: 3;
-  background: none;
-  text-align: left;
-  vertical-align: inherit !important;
   position: relative;
-  padding-left: 0;
-  padding-right: 5rem;
-  width: 8.3334%;
-}
-
-body.node1316899 .article-content table tr td:first-child p {
-  background: none;
-  margin-right: -1rem;
 }
 
 body.node1316899 .article-content table tr td:first-child::before {
   content: '';
-  display: block;
-  height: 0.1rem;
-  width: calc(100% + (100% / 3));
   position: absolute;
-  background-color: #8C909E;
-  opacity: 0.27;
-  bottom: 0;
   right: calc((1.5rem + (100% / 5)) * -1);
-}
-
-body.node1316899 .article-content table tr td p {
-  position: relative;
-  z-index: 2;
+  bottom: 0;
+  display: block;
+  width: calc(100% + (100% / 3));
+  height: 0.1rem;
+  opacity: .27;
+  background-color: #8C909E;
 }
 
 body.node1316899 .article-content table tr:last-child td::before, body.node1316899 .article-content table tr:first-child td::before {
