@@ -10636,7 +10636,7 @@ body.page-rubric .exhibitors-slider {
 }
 
 body.product-details .mod-catal.block.edito {
-  padding: 1.5rem 0 0;
+  padding: 1.5rem 0 0 1rem;
   position: relative;
 }
 
@@ -10683,6 +10683,9 @@ body.product-details .mod-catal .catal-prd-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 1rem;
 }
 
 body.product-details .mod-catal .catal-prd-main::after {
@@ -10706,6 +10709,15 @@ body.product-details .mod-catal .catal-prd-main::before {
   z-index: -1;
 }
 
+body.product-details .mod-catal .catal-prd-main .catal-prd-main-desc-title {
+  color: #585858;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.6;
+  text-align: left;
+}
+
 body.product-details .mod-catal .catal-prd-main .catal-prd-main-desc {
   border: 0;
 }
@@ -10714,13 +10726,29 @@ body.product-details .mod-catal .catal-prd-main img {
   height: 24.4rem;
   width: 24.4rem;
   border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
 body.product-details .mod-catal .catal-prd-exhibitor,
 body.product-details .mod-catal .catal-prd-infos {
   width: 100%;
-  margin: auto;
+  margin: auto auto 4rem;
   border: 0;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-infos-main-title,
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-main-title {
+  color: #585858;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.6;
+  text-align: left;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor img {
+  width: 26rem;
+  height: 13.6rem;
 }
 
 body.product-details .mod-catal .catal-prd-exhibitor-view {
@@ -10737,9 +10765,47 @@ body.product-details .mod-catal .catal-prd-exhibitor-view a {
   text-decoration: none;
 }
 
+body.product-details .mod-catal .catal-prd-exhibitor-view a:hover, body.product-details .mod-catal .catal-prd-exhibitor-view a:active, body.product-details .mod-catal .catal-prd-exhibitor-view a:focus {
+  text-decoration: none;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-content {
+  float: none;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-title {
+  width: 35%;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-title,
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-list {
+  color: #383838;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.104rem;
+  text-transform: uppercase;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-group:last-child {
+  border: 0;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-item > .icon-catal {
+  display: none;
+}
+
 body.product-details .mod-catal.catal-other-prd {
   clear: both;
-  padding-top: 4rem;
 }
 
 body.product-details .mod-catal.catal-other-prd h2 {
@@ -10753,6 +10819,10 @@ body.product-details .mod-catal.catal-other-prd h2 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+body.product-details .mod-catal.catal-other-prd h2 .exhibitors-slider__btn__container {
+  margin: 0 0 0 auto;
 }
 
 body.product-details .mod-catal.catal-other-prd .catal-other-prd-list {
