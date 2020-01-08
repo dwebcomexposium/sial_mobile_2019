@@ -2355,14 +2355,7 @@ body.detail-actu .article-navigation {
   margin-bottom: 8rem;
 }
 
-.article-navigation .an-list::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-body.detail-actu .article-navigation .an-list,
-body.article-program .article-navigation .an-list {
+.article-navigation .an-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2377,8 +2370,13 @@ body.article-program .article-navigation .an-list {
   flex-direction: column;
 }
 
-body.detail-actu .article-navigation .an-item-content,
-body.article-program .article-navigation .an-item-content {
+.article-navigation .an-list::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.article-navigation .an-item-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2402,20 +2400,16 @@ body.article-program .article-navigation .an-item-content {
   color: #fff;
 }
 
-body.detail-actu .article-navigation .an-item-content .at-theme,
-body.article-program .article-navigation .an-item-content .at-theme {
+.article-navigation .an-item-content .at-theme {
   margin-left: 1.5rem !important;
 }
 
-body.detail-actu .article-navigation .an-item-content .an-item-publication,
-body.detail-actu .article-navigation .an-item-content .icon-short-arrow-right,
-body.article-program .article-navigation .an-item-content .an-item-publication,
-body.article-program .article-navigation .an-item-content .icon-short-arrow-right {
+.article-navigation .an-item-content .an-item-publication,
+.article-navigation .an-item-content .icon-short-arrow-right {
   display: none;
 }
 
-body.detail-actu .article-navigation .an-item-content .an-item-title,
-body.article-program .article-navigation .an-item-content .an-item-title {
+.article-navigation .an-item-content .an-item-title {
   color: #fff;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.4rem;
@@ -2424,13 +2418,11 @@ body.article-program .article-navigation .an-item-content .an-item-title {
   margin-top: 2rem;
 }
 
-body.detail-actu .article-navigation .an-item-content .an-item-title + .gla-item-desc,
-body.article-program .article-navigation .an-item-content .an-item-title + .gla-item-desc {
+.article-navigation .an-item-content .an-item-title + .gla-item-desc {
   margin-top: 1rem;
 }
 
-body.detail-actu .article-navigation .an-item,
-body.article-program .article-navigation .an-item {
+.article-navigation .an-item {
   margin: 1.5rem auto;
   border-radius: 0.6rem;
   -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
@@ -2439,8 +2431,7 @@ body.article-program .article-navigation .an-item {
   max-width: 39.7rem;
 }
 
-body.detail-actu .article-navigation .an-item > a,
-body.article-program .article-navigation .an-item > a {
+.article-navigation .an-item > a {
   border-radius: 0.6rem;
   position: relative;
   display: -webkit-box;
@@ -2455,44 +2446,26 @@ body.article-program .article-navigation .an-item > a {
   overflow: hidden;
 }
 
-body.detail-actu .article-navigation .an-item > a .at-illust, body.detail-actu .article-navigation .an-item > a .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a .at-illust,
-body.detail-actu .article-navigation .an-item > a .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a .gla-item-img,
-body.detail-actu .article-navigation .an-item > a .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a .gla-item-img,
-body.detail-actu .article-navigation .an-item > a .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a .la-item-img,
-body.detail-actu .article-navigation .an-item > a .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a .la-item-img,
-body.detail-actu .article-navigation .an-item > a .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a .gla-item-img,
-body.detail-actu .article-navigation .an-item > a .la-item-img,
-body.detail-actu .article-navigation .an-item > a .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a .an-item-illust,
-body.article-program .article-navigation .an-item > a .at-illust,
-body.article-program .article-navigation .an-item > a .block.article-title .at-illust,
-.block.article-title body.article-program .article-navigation .an-item > a .at-illust,
-body.article-program .article-navigation .an-item > a .block.edito-custom .gla-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a .gla-item-img,
-body.article-program .article-navigation .an-item > a .block.article-title .gla-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a .gla-item-img,
-body.article-program .article-navigation .an-item > a .block.edito-custom .la-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a .la-item-img,
-body.article-program .article-navigation .an-item > a .block.article-title .la-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a .la-item-img,
-body.article-program .article-navigation .an-item > a .block.edito-custom .cx-lazy-load,
-.block.edito-custom body.article-program .article-navigation .an-item > a .cx-lazy-load,
-body.article-program .article-navigation .an-item > a .block.article-title .cx-lazy-load,
-.block.article-title body.article-program .article-navigation .an-item > a .cx-lazy-load,
-body.article-program .article-navigation .an-item > a .gla-item-img,
-body.article-program .article-navigation .an-item > a .la-item-img,
-body.article-program .article-navigation .an-item > a .cx-lazy-load,
-body.article-program .article-navigation .an-item > a .an-item-illust {
+.article-navigation .an-item > a .at-illust, .article-navigation .an-item > a .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a .at-illust,
+.article-navigation .an-item > a .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a .gla-item-img,
+.article-navigation .an-item > a .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a .gla-item-img,
+.article-navigation .an-item > a .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a .la-item-img,
+.article-navigation .an-item > a .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a .la-item-img,
+.article-navigation .an-item > a .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a .cx-lazy-load,
+.article-navigation .an-item > a .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a .cx-lazy-load,
+.article-navigation .an-item > a .gla-item-img,
+.article-navigation .an-item > a .la-item-img,
+.article-navigation .an-item > a .cx-lazy-load,
+.article-navigation .an-item > a .an-item-illust {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: none;
   z-index: 1;
   -webkit-transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2501,94 +2474,37 @@ body.article-program .article-navigation .an-item > a .an-item-illust {
   transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-body.detail-actu .article-navigation .an-item > a:hover .at-illust, body.detail-actu .article-navigation .an-item > a:hover .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .at-illust,
-body.detail-actu .article-navigation .an-item > a:hover .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:hover .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:hover .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:hover .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:hover .la-item-img,
-body.detail-actu .article-navigation .an-item > a:hover .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .la-item-img,
-body.detail-actu .article-navigation .an-item > a:hover .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a:hover .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:hover .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:hover .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:hover .la-item-img,
-body.detail-actu .article-navigation .an-item > a:hover .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:hover .an-item-illust, body.detail-actu .article-navigation .an-item > a:focus .at-illust, body.detail-actu .article-navigation .an-item > a:focus .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .at-illust,
-body.detail-actu .article-navigation .an-item > a:focus .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:focus .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:focus .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:focus .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:focus .la-item-img,
-body.detail-actu .article-navigation .an-item > a:focus .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .la-item-img,
-body.detail-actu .article-navigation .an-item > a:focus .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a:focus .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:focus .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:focus .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:focus .la-item-img,
-body.detail-actu .article-navigation .an-item > a:focus .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:focus .an-item-illust, body.detail-actu .article-navigation .an-item > a:active .at-illust, body.detail-actu .article-navigation .an-item > a:active .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a:active .at-illust,
-body.detail-actu .article-navigation .an-item > a:active .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:active .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:active .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:active .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:active .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:active .la-item-img,
-body.detail-actu .article-navigation .an-item > a:active .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:active .la-item-img,
-body.detail-actu .article-navigation .an-item > a:active .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a:active .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:active .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a:active .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:active .gla-item-img,
-body.detail-actu .article-navigation .an-item > a:active .la-item-img,
-body.detail-actu .article-navigation .an-item > a:active .cx-lazy-load,
-body.detail-actu .article-navigation .an-item > a:active .an-item-illust,
-body.article-program .article-navigation .an-item > a:hover .at-illust,
-body.article-program .article-navigation .an-item > a:hover .block.article-title .at-illust,
-.block.article-title body.article-program .article-navigation .an-item > a:hover .at-illust,
-body.article-program .article-navigation .an-item > a:hover .block.edito-custom .gla-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a:hover .gla-item-img,
-body.article-program .article-navigation .an-item > a:hover .block.article-title .gla-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a:hover .gla-item-img,
-body.article-program .article-navigation .an-item > a:hover .block.edito-custom .la-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a:hover .la-item-img,
-body.article-program .article-navigation .an-item > a:hover .block.article-title .la-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a:hover .la-item-img,
-body.article-program .article-navigation .an-item > a:hover .block.edito-custom .cx-lazy-load,
-.block.edito-custom body.article-program .article-navigation .an-item > a:hover .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:hover .block.article-title .cx-lazy-load,
-.block.article-title body.article-program .article-navigation .an-item > a:hover .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:hover .gla-item-img,
-body.article-program .article-navigation .an-item > a:hover .la-item-img,
-body.article-program .article-navigation .an-item > a:hover .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:hover .an-item-illust,
-body.article-program .article-navigation .an-item > a:focus .at-illust,
-body.article-program .article-navigation .an-item > a:focus .block.article-title .at-illust,
-.block.article-title body.article-program .article-navigation .an-item > a:focus .at-illust,
-body.article-program .article-navigation .an-item > a:focus .block.edito-custom .gla-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a:focus .gla-item-img,
-body.article-program .article-navigation .an-item > a:focus .block.article-title .gla-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a:focus .gla-item-img,
-body.article-program .article-navigation .an-item > a:focus .block.edito-custom .la-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a:focus .la-item-img,
-body.article-program .article-navigation .an-item > a:focus .block.article-title .la-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a:focus .la-item-img,
-body.article-program .article-navigation .an-item > a:focus .block.edito-custom .cx-lazy-load,
-.block.edito-custom body.article-program .article-navigation .an-item > a:focus .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:focus .block.article-title .cx-lazy-load,
-.block.article-title body.article-program .article-navigation .an-item > a:focus .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:focus .gla-item-img,
-body.article-program .article-navigation .an-item > a:focus .la-item-img,
-body.article-program .article-navigation .an-item > a:focus .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:focus .an-item-illust,
-body.article-program .article-navigation .an-item > a:active .at-illust,
-body.article-program .article-navigation .an-item > a:active .block.article-title .at-illust,
-.block.article-title body.article-program .article-navigation .an-item > a:active .at-illust,
-body.article-program .article-navigation .an-item > a:active .block.edito-custom .gla-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a:active .gla-item-img,
-body.article-program .article-navigation .an-item > a:active .block.article-title .gla-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a:active .gla-item-img,
-body.article-program .article-navigation .an-item > a:active .block.edito-custom .la-item-img,
-.block.edito-custom body.article-program .article-navigation .an-item > a:active .la-item-img,
-body.article-program .article-navigation .an-item > a:active .block.article-title .la-item-img,
-.block.article-title body.article-program .article-navigation .an-item > a:active .la-item-img,
-body.article-program .article-navigation .an-item > a:active .block.edito-custom .cx-lazy-load,
-.block.edito-custom body.article-program .article-navigation .an-item > a:active .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:active .block.article-title .cx-lazy-load,
-.block.article-title body.article-program .article-navigation .an-item > a:active .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:active .gla-item-img,
-body.article-program .article-navigation .an-item > a:active .la-item-img,
-body.article-program .article-navigation .an-item > a:active .cx-lazy-load,
-body.article-program .article-navigation .an-item > a:active .an-item-illust {
+.article-navigation .an-item > a:hover .at-illust, .article-navigation .an-item > a:hover .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a:hover .at-illust,
+.article-navigation .an-item > a:hover .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a:hover .gla-item-img,
+.article-navigation .an-item > a:hover .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a:hover .gla-item-img,
+.article-navigation .an-item > a:hover .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a:hover .la-item-img,
+.article-navigation .an-item > a:hover .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a:hover .la-item-img,
+.article-navigation .an-item > a:hover .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a:hover .cx-lazy-load,
+.article-navigation .an-item > a:hover .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a:hover .cx-lazy-load,
+.article-navigation .an-item > a:hover .gla-item-img,
+.article-navigation .an-item > a:hover .la-item-img,
+.article-navigation .an-item > a:hover .cx-lazy-load,
+.article-navigation .an-item > a:hover .an-item-illust, .article-navigation .an-item > a:focus .at-illust, .article-navigation .an-item > a:focus .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a:focus .at-illust,
+.article-navigation .an-item > a:focus .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a:focus .gla-item-img,
+.article-navigation .an-item > a:focus .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a:focus .gla-item-img,
+.article-navigation .an-item > a:focus .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a:focus .la-item-img,
+.article-navigation .an-item > a:focus .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a:focus .la-item-img,
+.article-navigation .an-item > a:focus .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a:focus .cx-lazy-load,
+.article-navigation .an-item > a:focus .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a:focus .cx-lazy-load,
+.article-navigation .an-item > a:focus .gla-item-img,
+.article-navigation .an-item > a:focus .la-item-img,
+.article-navigation .an-item > a:focus .cx-lazy-load,
+.article-navigation .an-item > a:focus .an-item-illust, .article-navigation .an-item > a:active .at-illust, .article-navigation .an-item > a:active .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a:active .at-illust,
+.article-navigation .an-item > a:active .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a:active .gla-item-img,
+.article-navigation .an-item > a:active .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a:active .gla-item-img,
+.article-navigation .an-item > a:active .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a:active .la-item-img,
+.article-navigation .an-item > a:active .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a:active .la-item-img,
+.article-navigation .an-item > a:active .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a:active .cx-lazy-load,
+.article-navigation .an-item > a:active .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a:active .cx-lazy-load,
+.article-navigation .an-item > a:active .gla-item-img,
+.article-navigation .an-item > a:active .la-item-img,
+.article-navigation .an-item > a:active .cx-lazy-load,
+.article-navigation .an-item > a:active .an-item-illust {
   -webkit-transform: translate(-50%, -50%) scale(1.2);
   -ms-transform: translate(-50%, -50%) scale(1.2);
   transform: translate(-50%, -50%) scale(1.2);
