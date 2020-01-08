@@ -6759,6 +6759,10 @@ body.article_list .more-infos-contact {
   line-height: 4.4rem;
 }
 
+body.node1309141 .more-infos-contact__title {
+  display: none;
+}
+
 .more-infos-contact__title::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
