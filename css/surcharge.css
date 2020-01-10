@@ -14373,12 +14373,7 @@ body.node1318742 .contacts-list .cl-item-subtitle {
   font-weight: 300;
   font-size: 1.6rem;
   line-height: 1.625;
-  text-transform: lowercase;
-}
-
-body.speakers-sial .contacts-list .cl-item-subtitle:first-letter,
-body.node1318742 .contacts-list .cl-item-subtitle:first-letter {
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 body.speakers-sial .contacts-list .cl-item-email, body.speakers-sial .contacts-list .cl-item-phone, body.speakers-sial .contacts-list .cl-item-illust, body.speakers-sial .contacts-list .cl-item-social.additional-informations,
@@ -16654,21 +16649,21 @@ body.node1318534 #zone1 .edito p em {
 }
 
 body.node1318534 .contacts-list {
+  position: relative;
   margin: 7rem 0;
   padding: 5.1rem 5.5rem;
-  position: relative;
 }
 
 body.node1318534 .contacts-list::before {
   content: '';
-  display: block;
   z-index: -1;
-  background-color: #F3F6FB;
   position: absolute;
   top: 0;
   left: 50%;
+  display: block;
   width: 110vw;
   height: 100%;
+  background-color: #F3F6FB;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -16687,8 +16682,8 @@ body.node1318534 .contacts-list .block-title > * {
 
 @media screen and (min-width: 640px) {
   body.node1318534 .contacts-list .cl-content {
-    margin-left: -1.5rem;
     margin-right: -1.5rem;
+    margin-left: -1.5rem;
   }
 }
 
@@ -16716,15 +16711,16 @@ body.node1318534 .contacts-list .cl-item-photo {
 
 body.node1318534 .contacts-list .cl-item-photo > img {
   width: 100%;
-  border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
 }
 
 body.node1318534 .contacts-list .cl-item-content {
-  padding: 2.5rem 3rem 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 2.5rem 3rem 1.5rem;
+  min-height: 13.8rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -16732,7 +16728,6 @@ body.node1318534 .contacts-list .cl-item-content {
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  min-height: 13.8rem;
   background-color: #fff;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -16751,11 +16746,7 @@ body.node1318534 .contacts-list .cl-item-subtitle {
   order: 3;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
   font-weight: 300;
-  text-transform: lowercase;
-}
-
-body.node1318534 .contacts-list .cl-item-subtitle:first-letter {
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 body.node1318534 .contacts-list .cl-item-email, body.node1318534 .contacts-list .cl-item-phone {
@@ -16788,21 +16779,21 @@ body.node1318534 .quicklinks-cta--large .ql-item .btn-primary {
 }
 
 body.node1318534 .quicklinks-cta--large .ql-item .btn-primary .icon {
-  margin-bottom: 0;
   margin-right: 1.6rem;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 640px) {
   body.node1318534 .quicklinks-cta--large .ql-item {
     width: calc(49% - 3rem);
-    margin: 0 1.5rem;
     max-width: 34.3rem;
+    margin: 0 1.5rem;
   }
 }
 
 body.node1318534 .detail-secteur {
-  padding: 0;
   margin: 0 auto 2.5rem;
+  padding: 0;
 }
 
 body.node1318534 .detail-secteur__list {
@@ -16810,17 +16801,17 @@ body.node1318534 .detail-secteur__list {
 }
 
 body.node1318534 .detail-secteur__datas {
-  background: none;
-  margin: 0 0 0 auto;
   width: 100%;
+  margin: 0 0 0 auto;
   list-style: none;
+  background: none;
 }
 
 body.node1318534 .detail-secteur__datas > li {
-  background-color: #F3F6FB;
   margin-bottom: 1rem;
   padding: 2.4rem 2rem 2.6rem;
   text-align: center;
+  background-color: #F3F6FB;
 }
 
 body.node1318534 .detail-secteur__datas > li::before {
@@ -16841,28 +16832,28 @@ body.node1318534 .detail-secteur__datas > li p {
 }
 
 body.node1318534 .submit-product {
-  padding: 5rem 1.5rem 4.7rem;
-  min-height: 25rem;
   position: relative;
+  min-height: 25rem;
   margin-bottom: 6rem;
+  padding: 5rem 1.5rem 4.7rem;
 }
 
 @media screen and (min-width: 640px) {
   body.node1318534 .submit-product {
-    padding-left: 8.3334%;
     padding-right: 25%;
+    padding-left: 8.3334%;
   }
 }
 
 body.node1318534 .submit-product::before {
   content: '';
   position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
   width: 100vw;
   height: 100%;
-  top: 0;
   background: #FFDB38 url("/theme/sial_2019_mobile_git/img/visual/sial-submit-product-bg.svg") bottom right 25% no-repeat;
-  z-index: -1;
-  left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -16883,6 +16874,9 @@ body.node1318534 .selection-stages .detail-secteur__topText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2.2rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -16890,9 +16884,6 @@ body.node1318534 .selection-stages .detail-secteur__topText {
   -ms-flex-pack: center;
   justify-content: center;
   color: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 2.2rem;
 }
 
 body.node1318534 .selection-stages .detail-secteur__topText p {
@@ -17277,8 +17268,8 @@ body.product-details .mod-catal.catal-other-prd .list-articles.block.block-page.
 
 .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a {
   display: block;
-  text-transform: capitalize;
   color: #2b2f2f;
+  text-transform: capitalize;
 }
 
 .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a:first-of-type {
