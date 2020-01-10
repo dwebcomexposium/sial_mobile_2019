@@ -11298,6 +11298,16 @@ body.product-details.body-mobile .catal-prd-main {
   padding-bottom: 0 !important;
 }
 
+.footer-menu .ql-item {
+  display: block;
+}
+
+.footer-menu .ql-item.break {
+  -webkit-column-break-after: column;
+  -moz-column-break-after: column;
+  break-after: column;
+}
+
 .footer-menu .ql-item.linkid795000 .btn-primary {
   display: -webkit-box;
   display: -ms-flexbox;
