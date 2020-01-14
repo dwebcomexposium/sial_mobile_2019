@@ -510,6 +510,20 @@ img {
   content: "";
 }
 
+.icon.icon-covered-food::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🥡";
+}
+
 .icon.icon-stand::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -592,6 +606,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "";
+}
+
+.icon.icon-fair-stand::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
 }
 
 .icon.icon-flag::before {
@@ -774,6 +802,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "👜";
+}
+
+.icon.icon-mail::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "✉";
 }
 
 .icon.icon-mail-open::before {
@@ -986,6 +1028,20 @@ img {
   content: "❄";
 }
 
+.icon.icon-quote-1::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
 .icon.icon-quote-left::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -998,6 +1054,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "";
+}
+
+.icon.icon-quote-2::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
 }
 
 .icon.icon-quote-right::before {
@@ -1140,7 +1210,35 @@ img {
   content: "🏪";
 }
 
+.icon.icon-storage::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "💾";
+}
+
 .icon.icon-trophee::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
+.icon.icon-trophy::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -13903,13 +14001,13 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   display: block;
 }
 
-.home-sectors + .home-search + div {
+.home-sectors + .home-search + ins {
   width: 25rem;
   height: 25rem;
   margin-top: 4.9rem;
 }
 
-.home-sectors + .home-search + div + .home-events {
+.home-sectors + .home-search + ins + .home-events {
   clear: both;
 }
 
