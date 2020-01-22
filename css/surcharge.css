@@ -11904,6 +11904,15 @@ body.product-details .mod-catal.catal-other-prd .block.nouveauxexpo .catal-other
   display: none;
 }
 
+.quicklinks.all_exhibitors {
+  text-align: center;
+}
+
+.nouveauxexpo + .quicklinks.all_exhibitors {
+  margin-top: -5rem;
+  margin-bottom: 5rem;
+}
+
 .quicklinks.all_exhibitors .btn-primary .icon {
   display: none;
 }
