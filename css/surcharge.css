@@ -12058,8 +12058,11 @@ body.product-details .mod-catal .catal-prd-main .catal-prd-main-desc {
 body.product-details .mod-catal .catal-prd-main img {
   height: 24.4rem;
   width: 24.4rem;
-  border-radius: 50%;
   margin-bottom: 2rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
 }
 
 body.product-details .mod-catal .catal-prd-main .catal-prd-main-footer {
@@ -12067,15 +12070,13 @@ body.product-details .mod-catal .catal-prd-main .catal-prd-main-footer {
   border-bottom: 4rem;
 }
 
-body.product-details .mod-catal .catal-prd-exhibitor,
-body.product-details .mod-catal .catal-prd-infos {
+body.product-details .mod-catal .catal-prd-group {
   width: 100%;
   margin: auto auto 4rem;
   border: 0;
 }
 
-body.product-details .mod-catal .catal-prd-exhibitor.js-fold,
-body.product-details .mod-catal .catal-prd-infos.js-fold {
+body.product-details .mod-catal .catal-prd-group.js-fold {
   position: relative;
   z-index: 2;
   padding-top: 2rem;
@@ -12083,8 +12084,7 @@ body.product-details .mod-catal .catal-prd-infos.js-fold {
   padding-bottom: 4rem;
 }
 
-body.product-details .mod-catal .catal-prd-exhibitor.js-fold .catal-prd-group-title,
-body.product-details .mod-catal .catal-prd-infos.js-fold .catal-prd-group-title {
+body.product-details .mod-catal .catal-prd-group.js-fold .catal-prd-group-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12096,8 +12096,7 @@ body.product-details .mod-catal .catal-prd-infos.js-fold .catal-prd-group-title 
   justify-content: space-between;
 }
 
-body.product-details .mod-catal .catal-prd-exhibitor.js-fold::before,
-body.product-details .mod-catal .catal-prd-infos.js-fold::before {
+body.product-details .mod-catal .catal-prd-group.js-fold::before {
   content: '';
   display: block;
   height: 100%;
@@ -12112,8 +12111,7 @@ body.product-details .mod-catal .catal-prd-infos.js-fold::before {
   z-index: -1;
 }
 
-body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-infos-main-title,
-body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-main-title {
+body.product-details .mod-catal .catal-prd-group .catal-prd-main-title {
   color: #585858;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
@@ -12125,6 +12123,9 @@ body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-main-title {
 body.product-details .mod-catal .catal-prd-exhibitor img {
   width: 26rem;
   height: 13.6rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
 }
 
 body.product-details .mod-catal .catal-prd-exhibitor .js-fold-target .catal-prd-exhibitor-content {
@@ -12176,9 +12177,11 @@ body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-v
 }
 
 body.product-details .mod-catal .catal-prd-exhibitor-view a:hover, body.product-details .mod-catal .catal-prd-exhibitor-view a:active, body.product-details .mod-catal .catal-prd-exhibitor-view a:focus,
+body.product-details .mod-catal .catal-prd-exhibitor-view a span:hover,
 body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:hover,
 body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:active,
-body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:focus {
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:focus,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link span:hover {
   text-decoration: none;
 }
 
