@@ -17419,11 +17419,6 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat 
   color: #F85C29;
 }
 
-body.catalogue.produit .catal-ex-item .msl-brand-content .catal-ex-item-desc,
-body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
-  display: none;
-}
-
 .mod-catal .esf-as-list-filters .current a {
   background: #F85C29;
 }
@@ -20165,7 +20160,8 @@ body.node1316899 .quicklinks-cta--large {
 
 .top-quicklinks {
   float: right;
-  margin-top: 2rem;
+  display: none;
+  margin-right: 2rem;
 }
 
 .top-quicklinks > span {
@@ -20201,6 +20197,7 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .site-banner .ql-list {
+  float: right;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
