@@ -258,34 +258,6 @@ img {
   color: #c8ccd7;
 }
 
-.icon.icon-arrow-left::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "❬";
-}
-
-.icon.icon-arrow-right::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "❭";
-}
-
 .icon.icon-accomodation::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -298,6 +270,34 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🏣";
+}
+
+.icon.icon-alcohol::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍸";
+}
+
+.icon.icon-ampoule::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "💡";
 }
 
 .icon.icon-android::before {
@@ -328,6 +328,34 @@ img {
   content: "";
 }
 
+.icon.icon-arrow-left::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "❬";
+}
+
+.icon.icon-arrow-right::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "❭";
+}
+
 .icon.icon-arrow-top::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -342,7 +370,7 @@ img {
   content: "🔝";
 }
 
-.icon.icon-ampoule::before {
+.icon.icon-asia::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -353,7 +381,35 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "🌏";
+}
+
+.icon.icon-baisse::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "📉";
+}
+
+.icon.icon-biere::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍻";
 }
 
 .icon.icon-bio-bien-etre::before {
@@ -370,6 +426,48 @@ img {
   content: "🌱";
 }
 
+.icon.icon-bio::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
+.icon.icon-boisson-chaude::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
+.icon.icon-boisson::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🥤";
+}
+
 .icon.icon-boissons::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -384,6 +482,34 @@ img {
   content: "🍺";
 }
 
+.icon.icon-bulb::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "💡";
+}
+
+.icon.icon-butter::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🧈";
+}
+
 .icon.icon-calculator::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -395,7 +521,21 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "🧮";
+}
+
+.icon.icon-calendar::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "📅";
 }
 
 .icon.icon-car::before {
@@ -412,20 +552,6 @@ img {
   content: "🚗";
 }
 
-.icon.icon-calendar::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "";
-}
-
 .icon.icon-celebrity::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -440,7 +566,7 @@ img {
   content: "💁";
 }
 
-.icon.icon-coins::before {
+.icon.icon-chicken-2::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -451,7 +577,35 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "💰";
+  content: "🍗";
+}
+
+.icon.icon-chicken::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🐓";
+}
+
+.icon.icon-china::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🇨";
 }
 
 .icon.icon-coffee::before {
@@ -466,6 +620,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "☕";
+}
+
+.icon.icon-coins::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "💰";
 }
 
 .icon.icon-concierge::before {
@@ -535,7 +703,21 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "📝";
+}
+
+.icon.icon-coree::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🇰";
 }
 
 .icon.icon-covered-food::before {
@@ -550,20 +732,6 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🥡";
-}
-
-.icon.icon-stand::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "";
 }
 
 .icon.icon-distributeur::before {
@@ -594,6 +762,48 @@ img {
   content: "📧";
 }
 
+.icon.icon-emballage::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
+.icon.icon-energy-drink::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "💪";
+}
+
+.icon.icon-epicerie-2::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🏫";
+}
+
 .icon.icon-epicerie::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -606,6 +816,34 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🍙";
+}
+
+.icon.icon-epierie-sucree::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
+.icon.icon-europe-occidentale::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🌍";
 }
 
 .icon.icon-exponent::before {
@@ -661,7 +899,7 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "🏴";
 }
 
 .icon.icon-flower::before {
@@ -703,7 +941,21 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "🇫";
+}
+
+.icon.icon-fruit::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍓";
 }
 
 .icon.icon-fruits-et-legumes::before {
@@ -718,6 +970,34 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🍔";
+}
+
+.icon.icon-ham-2::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
+.icon.icon-ham::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🥪";
 }
 
 .icon.icon-importateur::before {
@@ -748,6 +1028,20 @@ img {
   content: "📈";
 }
 
+.icon.icon-india::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🇮";
+}
+
 .icon.icon-industriel::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -776,6 +1070,20 @@ img {
   content: "";
 }
 
+.icon.icon-lait::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🥛";
+}
+
 .icon.icon-launch::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -788,6 +1096,34 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🚀";
+}
+
+.icon.icon-legume::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍆";
+}
+
+.icon.icon-legumes::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🥬";
 }
 
 .icon.icon-linkedin::before {
@@ -815,7 +1151,7 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "⏲";
 }
 
 .icon.icon-luggage::before {
@@ -832,7 +1168,7 @@ img {
   content: "👜";
 }
 
-.icon.icon-mail::before {
+.icon.icon-machine::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -843,10 +1179,24 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "✉";
+  content: "⚙";
 }
 
 .icon.icon-mail-open::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "📧";
+}
+
+.icon.icon-mail::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -872,6 +1222,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "📌";
+}
+
+.icon.icon-marche-mondial::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "⛟";
 }
 
 .icon.icon-marker::before {
@@ -902,6 +1266,20 @@ img {
   content: "📳";
 }
 
+.icon.icon-meat::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🥩";
+}
+
 .icon.icon-mic::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -913,7 +1291,7 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "🎙";
 }
 
 .icon.icon-minus::before {
@@ -972,6 +1350,20 @@ img {
   content: "📞";
 }
 
+.icon.icon-plat::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🛎";
+}
+
 .icon.icon-play::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -998,6 +1390,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "✚";
+}
+
+.icon.icon-prime::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🏵";
 }
 
 .icon.icon-product::before {
@@ -1056,7 +1462,7 @@ img {
   content: "❄";
 }
 
-.icon.icon-quote-1::before {
+.icon.icon-produits::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -1067,10 +1473,10 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "";
 }
 
-.icon.icon-quote-left::before {
+.icon.icon-quote-1::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -1098,6 +1504,20 @@ img {
   content: "";
 }
 
+.icon.icon-quote-left::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
 .icon.icon-quote-right::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1110,6 +1530,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "";
+}
+
+.icon.icon-restaurant::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍽";
 }
 
 .icon.icon-restaurateur::before {
@@ -1137,7 +1571,7 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "";
+  content: "🍚";
 }
 
 .icon.icon-search::before {
@@ -1168,6 +1602,34 @@ img {
   content: "📱";
 }
 
+.icon.icon-societes::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🏢";
+}
+
+.icon.icon-soda::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+}
+
 .icon.icon-speaker::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1182,7 +1644,7 @@ img {
   content: "📢";
 }
 
-.icon.icon-star::before {
+.icon.icon-spirits::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -1193,7 +1655,21 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "⭐";
+  content: "🍹";
+}
+
+.icon.icon-stand::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
 }
 
 .icon.icon-star-empty::before {
@@ -1210,6 +1686,20 @@ img {
   content: "🌑";
 }
 
+.icon.icon-star::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "⭐";
+}
+
 .icon.icon-stock::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1222,6 +1712,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "📦";
+}
+
+.icon.icon-storage::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "💾";
 }
 
 .icon.icon-store::before {
@@ -1238,7 +1742,7 @@ img {
   content: "🏪";
 }
 
-.icon.icon-storage::before {
+.icon.icon-tea::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -1249,7 +1753,49 @@ img {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "💾";
+  content: "🍵";
+}
+
+.icon.icon-toast::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍞";
+}
+
+.icon.icon-traiteur-snacking::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍲";
+}
+
+.icon.icon-transformation::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "♻";
 }
 
 .icon.icon-trophee::before {
@@ -1280,34 +1826,6 @@ img {
   content: "";
 }
 
-.icon.icon-tea::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "🍵";
-}
-
-.icon.icon-traiteur-snacking::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "🍲";
-}
-
 .icon.icon-truck::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1336,6 +1854,20 @@ img {
   content: "";
 }
 
+.icon.icon-usa-europe::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🇺";
+}
+
 .icon.icon-viande::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1362,6 +1894,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🍖";
+}
+
+.icon.icon-vin::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍷";
 }
 
 .icon.icon-visite-guidee::before {
@@ -1404,6 +1950,20 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🌎";
+}
+
+.icon.icon-yaourt::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍨";
 }
 
 .icon.icon-youtube::before {
@@ -1976,7 +2536,7 @@ body.node1309141 .contacts-list .cl-item-social a::before, body.speakers-sial .c
 }
 
 body.node1309141 .contacts-list .cl-item-social a.social-mail::before, body.speakers-sial .contacts-list .cl-item-social a.social-mail::before, body.node1318742 .contacts-list .cl-item-social a.social-mail::before, body.node1318534 .contacts-list .cl-item-social a.social-mail::before {
-  content: "✉";
+  content: "📧";
 }
 
 body.node1309141 .contacts-list .cl-item-social a.social-facebook::before, body.speakers-sial .contacts-list .cl-item-social a.social-facebook::before, body.node1318742 .contacts-list .cl-item-social a.social-facebook::before, body.node1318534 .contacts-list .cl-item-social a.social-facebook::before {
@@ -3037,7 +3597,7 @@ body.sial-innovation .social-sharing .sr-item a::before {
 body.page-events .social-sharing .sr-item a.sr-link-mail::before,
 body.article-program .social-sharing .sr-item a.sr-link-mail::before,
 body.sial-innovation .social-sharing .sr-item a.sr-link-mail::before {
-  content: "✉";
+  content: "📧";
 }
 
 body.page-events .social-sharing .sr-item a.sr-link-facebook::before,
