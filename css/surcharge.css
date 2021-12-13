@@ -21088,6 +21088,7 @@ body.node1316899 .quicklinks-cta--large {
   display: flex;
   margin-top: 2rem;
   margin-right: 2rem;
+  display: none;
 }
 
 .top-quicklinks > span {
