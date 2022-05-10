@@ -32,4 +32,54 @@ header .dateSalon {
 .block.block-page.social-sharing.shareen cloudflare-app:last-child {
     display: none;
 }
-/* Fin Social Sharing */
+
+/* CSS Contacts */
+.cl-item-photo img.cx-lazy-load {
+border-radius: 50%;
+}
+
+.cl-item{
+margin: 3rem auto 0;
+max-width: 41.5rem;
+text-align: center;
+-webkit-box-shadow: 0 0.4rem 0.9rem 0 rgb(0 0 0 / 13%);
+/* box-shadow: 0 0.4rem 0.9rem 0 rgb(0 0 0 / 13%); */
+padding: 3.8rem 1.5rem 3.3rem;}
+
+p.cl-item-subtitle {
+display: none;
+}
+
+.cl-item-illust {
+width: 15%;
+}
+.cl-item>* {
+display: block;
+vertical-align: top;
+padding: 0 2em;
+}
+.cl-item-content span.label {
+display: none;
+}
+.cl-item-content p.cl-item-social {
+display: none;
+}
+.cl-item-email a{
+display: inline-block;
+padding: 1.3rem 2.6rem 1.4rem;
+font-family: futura pt,lato,trebuchet ms,Arial,sans-serif;
+font-size: 1.6rem;
+font-weight: 500;
+line-height: 1;
+text-align: center;
+text-transform: none;
+text-decoration: none;
+color: #fff;
+background: #383838;
+border: 0;
+border-radius: 2.3rem;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+outline: 0;}
