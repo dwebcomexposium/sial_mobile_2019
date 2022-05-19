@@ -3850,6 +3850,12 @@ body.no-accroche .article-wrapper .article-content {
   margin-bottom: 0;
 }
 
+.article-wrapper .article-content > p:last-child.txtcenter.important2 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
 .article-wrapper .social-sharing {
   display: none;
 }
