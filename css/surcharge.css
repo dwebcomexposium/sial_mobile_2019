@@ -21880,3 +21880,7 @@ body {
 .parent1304193 .block.article-title .inside > * {
   margin: 0;
 }
+
+.content802087 .home-sectors .quicklinks .ql-item::after{
+  display: none;
+}
