@@ -9001,8 +9001,6 @@ body.pourquoi-exposer #zone2 > h2 {
   -ms-flex-align: start;
   align-items: flex-start;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .video-list__item {
