@@ -3847,13 +3847,12 @@ body.no-accroche .article-wrapper .article-content {
 }
 
 .article-wrapper .article-content > p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 
 .content893321 .article-wrapper .article-content > p:last-child {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
 }
 
 .article-wrapper .social-sharing {
