@@ -12776,8 +12776,7 @@ body.product-details .mod-catal.catal-other-prd .block.nouveauxexpo .catal-other
 }
 
 .nouveauxexpo + .quicklinks.all_exhibitors {
-  margin-top: -5rem;
-  margin-bottom: 5rem;
+  transform: translateY(5rem);
 }
 
 .quicklinks.all_exhibitors .btn-primary .icon {
