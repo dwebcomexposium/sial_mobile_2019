@@ -6811,6 +6811,7 @@ table.table3 td::after {
   top: 0;
   left: 50%;
   width: 136.1rem;
+  max-width: 100vw;
   height: 100%;
   background-color: #F3F6FB;
   -webkit-transform: translateX(-50%);
@@ -21874,4 +21875,8 @@ body {
   -o-transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.parent1304193 .block.edito-custom .inside > *, .block.article-title .inside > * {
+  margin: 0;
 }
