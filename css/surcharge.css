@@ -242,6 +242,10 @@ img {
   }
 }
 
+html[lang="fr"] .hero__title span {
+  font-size: 2.3rem;
+}
+
 /* stylelint-disable order/properties-alphabetical-order */
 /* stylelint-enable */
 .back-to-top {
