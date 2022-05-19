@@ -21877,6 +21877,6 @@ body {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-.parent1304193 .block.edito-custom .inside > *, .block.article-title .inside > * {
+.parent1304193 .block.article-title .inside > * {
   margin: 0;
 }
