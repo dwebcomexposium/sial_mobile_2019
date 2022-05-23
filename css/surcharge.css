@@ -21909,11 +21909,12 @@ body {
 .article-navigation .an-item {
   width: 100%;
   max-width: 300px;
+  margin: 0;
 }
 
 .article-navigation .an-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
