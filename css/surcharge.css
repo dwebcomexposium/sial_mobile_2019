@@ -7899,19 +7899,6 @@ body.pourquoi-exposer .block.edito .inside .style1 {
   padding: 0 2rem 15rem 2rem;
 }
 
-body.pourquoi-exposer .block.edito .inside::after {
-  position: absolute;
-    content: '';
-    top: 2rem;
-    left: 0;
-    display: block;
-    width: 42.6rem;
-    height: 100%;
-    padding-bottom: 13.3rem;
-    opacity: .5;
-    background: linear-gradient(180deg,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.55) 100%);
-}
-
 body.pourquoi-exposer .block.edito .inside .style1 > strong {
   font-size: 12rem;
   line-height: 0.5;
