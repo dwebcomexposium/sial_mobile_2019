@@ -21905,3 +21905,15 @@ body {
 .content802087 .home-sectors .quicklinks .ql-item::after{
   display: none;
 }
+
+.article-navigation .an-item {
+  width: 100%;
+  max-width: 300px;
+}
+
+.article-navigation .an-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
