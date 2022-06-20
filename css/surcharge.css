@@ -9440,7 +9440,7 @@ body.faq .block-page.faq .fc-item.is-open {
   box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
 }
 
-body.faq .block-page.faq .fc-item.is-open .fc-item-link::after {
+body.faq .block-page.faq .fc-item .fc-item-link.is-active::after {
   content: "➖";
 }
 
