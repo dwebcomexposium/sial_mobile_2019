@@ -83,3 +83,7 @@ border-radius: 2.3rem;
 -ms-user-select: none;
 user-select: none;
 outline: 0;}
+
+.home-sectors+.home-search+ins {
+    height: auto;
+}
