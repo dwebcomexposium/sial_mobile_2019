@@ -21951,3 +21951,16 @@ cloudflare-app {
   width: 100%;
   pointer-events: none;
 }
+
+body.article .article-wrapper .article-content table tr {
+  display: flex;
+  flex-direction: column;
+}
+
+body.article .article-wrapper .article-content table td {
+  width: 100%;
+}
+
+body.article .article-wrapper .article-content table td br {
+  display: none;
+}
