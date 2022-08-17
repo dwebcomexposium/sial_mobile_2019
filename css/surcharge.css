@@ -7844,6 +7844,8 @@ body.pourquoi-exposer .block.edito .inside > img {
   max-width: 42.6rem;
   max-height: 65.6rem;
   margin: auto;
+  position: relative;
+  z-index: 0;
 }
 
 body.pourquoi-exposer .block.edito .inside > p {
@@ -7874,6 +7876,21 @@ body.pourquoi-exposer .block.edito .inside .detail-secteur__datas {
   margin: auto;
 }
 
+body.pourquoi-exposer .block.edito .inside::after {
+  position: absolute;
+  z-index: 1;
+  content: '';
+  top: 2rem;
+  left: 0;
+  display: block;
+  width: 42.6rem;
+  height: 65.6rem;
+  opacity: 0.5;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.55)));
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 100%);
+}
+
 body.pourquoi-exposer .block.edito .inside .style1 {
   margin-top: 0;
   text-align: center;
@@ -7882,9 +7899,9 @@ body.pourquoi-exposer .block.edito .inside .style1 {
   left: 0;
   color: #fff;
   font-family: avenir,nunito,Arial,sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.4;
   width: 100%;
   height: 100%;
   max-height: 65.6rem;
@@ -7900,7 +7917,7 @@ body.pourquoi-exposer .block.edito .inside .style1 {
 }
 
 body.pourquoi-exposer .block.edito .inside .style1 > strong {
-  font-size: 12rem;
+  font-size: 10rem;
   line-height: 0.5;
 }
 
