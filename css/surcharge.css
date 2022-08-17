@@ -7841,8 +7841,9 @@ body.pourquoi-exposer .block.edito .inside h3 {
 
 body.pourquoi-exposer .block.edito .inside > img {
   width: 100%;
-  max-width: 42.6rem;
-  max-height: 65.6rem;
+  height: 5.3rem;
+  object-fit: cover;
+  object-position: bottom;
   margin: auto;
   position: relative;
   z-index: 0;
@@ -7883,8 +7884,8 @@ body.pourquoi-exposer .block.edito .inside::after {
   top: 2rem;
   left: 0;
   display: block;
-  width: 42.6rem;
-  height: 65.6rem;
+  width: 100%;
+  height: 52.3rem;
   opacity: 0.5;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.55)));
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 100%);
@@ -7905,7 +7906,6 @@ body.pourquoi-exposer .block.edito .inside .style1 {
   width: 100%;
   height: 100%;
   max-height: 65.6rem;
-  max-width: 42.6rem;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -7913,7 +7913,7 @@ body.pourquoi-exposer .block.edito .inside .style1 {
   -webkit-box-pack: end;
   justify-content: flex-end;
   z-index: 2;
-  padding: 0 2rem 15rem 2rem;
+  padding: 0 2rem 17rem 2rem;
 }
 
 body.pourquoi-exposer .block.edito .inside .style1 > strong {
