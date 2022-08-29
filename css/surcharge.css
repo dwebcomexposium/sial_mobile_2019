@@ -22030,3 +22030,17 @@ body.event .evd-guests-list{
 body.event .evd-guests-list .evd-guests-item{
   list-style-type: none !important;
 }
+
+body.event .evd-guests-name::before{
+  border-color: #F85C29 !important;
+}
+
+body.event .evd-facts {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+body.event .evd-facts .evd-facts-list {
+  margin-top: 0 !important;
+}
