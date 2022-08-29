@@ -22022,3 +22022,11 @@ body.article .article-wrapper .article-content table td {
 body.article .article-wrapper .article-content table td br {
   display: none;
 }
+
+body.event .evd-guests-list{
+  padding: 0 !important;
+}
+
+body.event .evd-guests-list .evd-guests-item{
+  list-style-type: none !important;
+}
