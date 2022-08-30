@@ -22067,3 +22067,22 @@ body.event .ac-add-to-calendar .ac-list a{
 body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
   color: white !important;
 }
+
+.home2 .grid-la-list {
+  margin-left: 0 !important;
+}
+
+.home2 .grid-la-list article {
+  width: 100% !important;
+  box-shadow: none !important;
+  margin-left: 0 !important;
+  border-radius: 0 !important;
+}
+
+.home2 .grid-la-list article .gla-item-content {
+  padding: 2rem 0 !important;
+}
+
+.home2 .grid-la-list article .gla-item-btn {
+  margin-top: 2rem !important;
+}
