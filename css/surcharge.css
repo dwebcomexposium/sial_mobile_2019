@@ -22053,3 +22053,17 @@ body.event .evd-dl .btn-primary{
 body.event .social-sharing {
   display: none !important;
 }
+
+body.event .ac-add-to-calendar .ac-list{
+  background-color: white !important;
+  border: 2px solid #F3F6FB;
+  border-radius: 5px;
+}
+
+body.event .ac-add-to-calendar .ac-list a{
+  color: #292b2f !important;
+}
+
+body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
+  color: white !important;
+}
