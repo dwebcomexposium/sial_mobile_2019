@@ -22044,3 +22044,12 @@ body.event .evd-facts {
 body.event .evd-facts .evd-facts-list {
   margin-top: 0 !important;
 }
+
+body.event .evd-dl .btn-primary{
+  background-color: #f85c29 !important;
+  border-color: #f85c29!important;
+}
+
+body.event .social-sharing {
+  display: none !important;
+}
