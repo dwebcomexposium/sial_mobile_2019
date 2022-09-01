@@ -3,7 +3,7 @@ const moveElements = () => {
   const desc = document.querySelector('.evd-wrapper > .evd-desc')
   const child = document.querySelector('.evd-wrapper > .evd-desc > .evd-desc')
   console.log(baneer, desc, child)
-  // desc.insertBefore(baneer, child)
+  desc.insertBefore(baneer, child)
 }
 
 moveElements()
