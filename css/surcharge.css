@@ -22091,3 +22091,7 @@ body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
 .home2 .grid-la-list article a img {
   border-radius: 0 !important;
 }
+
+body.event .catal-ed-activity-link {
+  margin-top: 2rem !important;
+}
