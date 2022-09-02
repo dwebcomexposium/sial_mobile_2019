@@ -228,6 +228,9 @@ const backToTop = () => {
 }
 
 const moveElements = () => {
+  if(!document.querySelector("body.event")) {
+    return
+  }
   const target = document.querySelector('.evd-wrapper > .block');
   const observer = new MutationObserver(() => {
     // if(document.querySelector('.evd-wrapper > .block') & document.querySelector('.evd-wrapper > .evd-desc') & document.querySelector('.evd-wrapper > .evd-desc > .evd-desc')) {
