@@ -87,3 +87,6 @@ outline: 0;}
 .home-sectors+.home-search+ins {
     height: auto;
 }
+.tableau table {
+    display: block !important;
+}
