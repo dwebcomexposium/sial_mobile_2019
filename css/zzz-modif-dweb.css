@@ -90,3 +90,9 @@ outline: 0;}
 .tableau table {
     display: block !important;
 }
+.site-logo__img {
+    background: url(/theme/sial_2019_mobile_git/img/patronage-FR.png) center center/contain no-repeat;
+}
+.site-logo__img:lang(en){
+    background: url(/theme/sial_2019_mobile_git/img/patronage-UK.png) center center/contain no-repeat;
+}
