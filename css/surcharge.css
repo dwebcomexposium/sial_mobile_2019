@@ -22005,7 +22005,7 @@ cloudflare-app {
   pointer-events: none;
 }
 
-body.article .article-wrapper .article-content table tr {
+/* body.article .article-wrapper .article-content table tr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22013,7 +22013,7 @@ body.article .article-wrapper .article-content table tr {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
+} */
 
 body.article .article-wrapper .article-content table td {
   width: 100%;
